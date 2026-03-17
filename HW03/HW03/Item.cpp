@@ -15,3 +15,6 @@ void Item::PrintInfo() const
 {
     cout << "이름: " << ItemName <<  ", 가격: " << price << endl;
 }
+
+int Item::GetPrice() const {return price;}
+

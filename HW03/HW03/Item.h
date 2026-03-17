@@ -10,7 +10,8 @@ public:
     Item(string ItemName, int price);
     
     void PrintInfo() const;
-    
+    int GetPrice() const;
+
     
 private:
     string ItemName;
